@@ -5,16 +5,16 @@ function SignupForm() {
   const {
     register,
     handleSubmit,
-    watch,
-    getValues,
+    // watch,
+    // getValues,
     formState: { errors },
     reset,
   } = useForm();
 
   const SignupSubmit = (data) => {
-    console.log(data);
-    console.log(watch());
-    console.log(getValues());
+    // console.log(data);
+    // console.log(watch());
+    // console.log(getValues());
     reset();
   };
 
