@@ -1,0 +1,82 @@
+body {
+  background-color: grey;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  background-color: white;
+  width: 40%;
+  margin-block: 3rem;
+  padding: 1rem;
+  line-height: 3rem;
+}
+
+.top-row {
+  padding-block: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nameField {
+  width: 100%;
+}
+
+.mailField {
+  width: 100%;
+}
+
+input {
+  padding-inline: 10px;
+}
+
+.submitBtn {
+  width: 100%;
+  background-color: #34cca3;
+  border: none;
+  color: white;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.submitBtn:hover {
+  background-color: #2ae2b1;
+}
+
+.error {
+  color: red;
+  line-height: 1.5rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.routeBtn {
+  width: 50%;
+  height: 3rem;
+  background: none;
+  font-size: larger;
+  font-weight: 600;
+  border: none;
+}
+
+.clicked {
+  background-color: #34cca3;
+  color: aliceblue;
+}
+
+.routeBtn:hover {
+  background-color: #2ae2b1;
+  color: aliceblue;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
